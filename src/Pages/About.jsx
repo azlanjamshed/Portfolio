@@ -23,11 +23,14 @@ const About = () => {
           </div>
           <div className="text-center lg:text-left">
             <p className="text-gray-600 dark:text-gray-300 mb-8 leading-7 max-w-2xl mx-auto lg:mx-0">
-              Experienced Backend developer with over 5 years of professional
-              experience in web development. Proficient in creating efficient
-              backend systems and skilled in frontend development using React
-              and Next.js. Certified AWS Developer Associate with a strong
-              dedication to delivering high-quality software solutions.
+              I am an Enthusiastic web developer with a strong passion for
+              creating modern, responsive, and user-friendly websites. My
+              expertise lies in front-end development, where I enjoy
+              transforming ideas into interactive digital experiences using
+              clean code and creative design. With a keen eye for detail and a
+              constant drive to learn new technologies, I focus on building
+              interfaces that not only look great but also deliver smooth
+              functionality and excellent user experience.
             </p>
             <div className="flex justify-center lg:justify-start">
               <a

@@ -62,9 +62,9 @@ const Skills = () => {
 
                 <div className="flex flex-col items-start">
                   <span>Frontend Developer</span>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">
+                  {/* <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">
                     2 year experience
-                  </p>
+                  </p> */}
                 </div>
                 <FaChevronDown className="transition-transform duration-300 group-open:rotate-180 text-blue-400" />
               </summary>
@@ -97,9 +97,9 @@ const Skills = () => {
                 </div>
                 <div className="flex flex-col items-start">
                   <span>Backend Developer</span>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">
+                  {/* <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">
                     2 year experience
-                  </p>
+                  </p> */}
                 </div>
                 <FaChevronDown className="transition-transform duration-300 group-open:rotate-180 text-blue-400" />
               </summary>
@@ -116,9 +116,9 @@ const Skills = () => {
                 <span className="bg-[#1f2a4c] px-5 py-3 font-medium rounded-2xl hover:text-blue-400 border-[#3b4a79] hover:border-blue-400  border transition-colors duration-300 ease-in-out ">
                   MongoDB
                 </span>
-                <span className="bg-[#1f2a4c] px-5 py-3 font-medium rounded-2xl hover:text-blue-400 border-[#3b4a79] hover:border-blue-400  border transition-colors duration-300 ease-in-out ">
+                {/* <span className="bg-[#1f2a4c] px-5 py-3 font-medium rounded-2xl hover:text-blue-400 border-[#3b4a79] hover:border-blue-400  border transition-colors duration-300 ease-in-out ">
                   MySQL
-                </span>
+                </span> */}
               </div>
             </details>
           </div>

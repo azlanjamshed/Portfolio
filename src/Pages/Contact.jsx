@@ -61,7 +61,7 @@ const Contact = () => {
         ) : (
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="bg-slate-800 rounded-2xl p-6 sm:p-8 flex flex-col gap-6 sm:gap-8 hover:shadow-xl transition-shadow duration-300"
+            className="bg-slate-800  rounded-2xl p-6 sm:p-8 flex flex-col gap-6 sm:gap-8 hover:shadow-xl transition-shadow duration-300"
           >
             {/* Name Field */}
             <div className="flex flex-col gap-2">
