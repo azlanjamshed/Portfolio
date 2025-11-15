@@ -4,14 +4,15 @@ import { FaGithub } from "react-icons/fa";
 
 import { IoMailOutline } from "react-icons/io5";
 import { Link } from "react-scroll";
+import photo from "../assets/photo.jpg";
 
 const Home = () => {
   return (
     <>
       <div id="home" className="bg-[#0e162a] pt-30 p-10 md:pt-40 ">
         <div className="flex flex-col  md:flex-row-reverse md:justify-between justify-center items-center gap-10 md:px-[15%]   ">
-          <div className="w-[200px] h-[200px] border-2 border-red-700 ">
-            <img src="" alt="" />
+          <div className="w-[200px] h-[200px]  object-contain  overflow-hidden ">
+            <img src={photo} alt="" />
           </div>
           <div className="flexflex-col justify-center items-center  gap-5 text-white">
             <div className="flex items-center justify-center md:justify-start gap-4 mb-8">
