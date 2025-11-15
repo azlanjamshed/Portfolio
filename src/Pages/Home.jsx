@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <div id="home" className="bg-[#0e162a] pt-30 p-10 md:pt-40 ">
         <div className="flex flex-col  md:flex-row-reverse md:justify-between justify-center items-center gap-10 md:px-[15%]   ">
-          <div className="w-[200px] h-[200px]  object-contain  overflow-hidden ">
+          <div className="w-[300px] h-[300px]  object-contain rounded-2xl  overflow-hidden ">
             <img src={photo} alt="" />
           </div>
           <div className="flexflex-col justify-center items-center  gap-5 text-white">

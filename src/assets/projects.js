@@ -10,7 +10,7 @@ const projects = [
         description: "",
         techStack: ["React", "Tailwind CSS"],
         link: "https://gslassociates.in",
-        gitLink: "https://github.com/azlanjamshed/Password-Generator",
+        gitLink: "https://github.com/azlanjamshed/GLOBAL-SERVICES-LEGAL-ASSOCIATES",
     },
     {
         image: todo,
