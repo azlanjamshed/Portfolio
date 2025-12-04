@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar";
 import Skills from "./Pages/Skills";
 import Contact from "./Pages/Contact";
 import { useEffect } from "react";
+import Footer from "./Components/Footer";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 }

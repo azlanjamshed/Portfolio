@@ -32,7 +32,7 @@ const Home = () => {
                 Hi, I'm Azlan
               </h1>
               <h3 className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 font-medium mb-4">
-                Frontend Developer
+                Web Developer
               </h3>
             </div>
             <div className=" flex items-center justify-center md:justify-start">

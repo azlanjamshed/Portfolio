@@ -1,4 +1,4 @@
-import todo from "../assets/todo.png"
+
 import weather from "../assets/weather.png"
 import password from "../assets/password.png"
 import gsla from "../assets/gsla.png"

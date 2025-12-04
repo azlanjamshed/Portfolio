@@ -1,6 +1,7 @@
 import React from "react";
 import { IoMailOutline } from "react-icons/io5";
 import { Link } from "react-scroll";
+import CV from "../assets/Azlan_Jamshed.pdf";
 
 const Navbar = () => {
   return (
@@ -97,8 +98,9 @@ const Navbar = () => {
           </div> */}
           <div className=" flex items-center justify-center md:justify-start">
             <a
-              href=""
               className="items-center bg-blue-500 text-white px-3 py-2 rounded-lg   transition-all hover:bg-blue-600 hover:scale-105"
+              href={CV}
+              download
             >
               <IoMailOutline className=" w-5 h-5 inline" />
             </a>
