@@ -53,7 +53,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="bg-[#0e162a] p-5 flex justify-center ">
+    <div id="contact" className="bg-slate-800 p-5 flex justify-center ">
       <div className="px-4 sm:px-10 md:px-10 lg:px-40 py-10 text-white w-full md:w-2/3 lg:w-1/2">
         <h1 className="text-center text-4xl md:text-5xl font-semibold text-white mb-8">
           Contact
@@ -71,7 +71,7 @@ const Contact = () => {
         ) : (
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="bg-slate-800 rounded-2xl p-6 sm:p-8 flex flex-col gap-6 sm:gap-8 hover:shadow-xl transition-shadow duration-300"
+            className="bg-[#0e162a] rounded-2xl p-6 sm:p-8 flex flex-col gap-6 sm:gap-8 hover:shadow-xl transition-shadow duration-300"
           >
             {/* Name Field */}
             <div className="flex flex-col gap-2">
@@ -84,7 +84,7 @@ const Contact = () => {
               <input
                 id="name"
                 type="text"
-                className="w-full p-3 rounded-md border border-slate-700 bg-slate-900 text-white focus:outline-none focus:border-blue-500"
+                className="w-full p-3 rounded-md border border-slate-700 bg-slate-800 text-white focus:outline-none focus:border-blue-500"
                 {...register("name", { required: true })}
               />
             </div>
@@ -100,7 +100,7 @@ const Contact = () => {
               <input
                 id="email"
                 type="email"
-                className="w-full p-3 rounded-md border border-slate-700 bg-slate-900 text-white focus:outline-none focus:border-blue-500"
+                className="w-full p-3 rounded-md border border-slate-700 bg-slate-800 text-white focus:outline-none focus:border-blue-500"
                 {...register("email", { required: true })}
               />
             </div>
@@ -115,7 +115,7 @@ const Contact = () => {
               </label>
               <textarea
                 id="message"
-                className="w-full p-3 rounded-md border border-slate-700 bg-slate-900 text-white focus:outline-none focus:border-blue-500 min-h-[100px] sm:min-h-[150px]"
+                className="w-full p-3 rounded-md border border-slate-700 bg-slate-800 text-white focus:outline-none focus:border-blue-500 min-h-[100px] sm:min-h-[150px]"
                 {...register("message", { required: true })}
               />
             </div>
