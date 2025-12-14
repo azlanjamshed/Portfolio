@@ -8,6 +8,7 @@ import Skills from "./Pages/Skills";
 import Contact from "./Pages/Contact";
 import { useEffect } from "react";
 import Footer from "./Components/Footer";
+import Certificates from "./Pages/Certificates";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Certificates />
       <Contact />
       <Footer />
     </>
