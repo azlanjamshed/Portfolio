@@ -137,16 +137,16 @@ const Navbar = () => {
   const menuRef = useRef(null);
 
   // Close menu when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (e) => {
-      if (menuRef.current && !menuRef.current.contains(e.target)) {
-        setOpen(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleClickOutside = (e) => {
+  //     if (menuRef.current && !menuRef.current.contains(e.target)) {
+  //       setOpen(false);
+  //     }
+  //   };
 
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  //   document.addEventListener("mousedown", handleClickOutside);
+  //   return () => document.removeEventListener("mousedown", handleClickOutside);
+  // }, []);
 
   const navLinks = [
     { to: "home", label: "Home" },
@@ -216,7 +216,10 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-[#1c293c] text-white px-6 py-6 space-y-5">
+        <div
+          className="md:hidden bg-[#1c293c] text-white px-6 py-6 space-y-5"
+          onClick={(e) => e.stopPropagation()}
+        >
           {navLinks.map((link) => (
             <Link
               key={link.to}
@@ -224,7 +227,6 @@ const Navbar = () => {
               smooth
               duration={300}
               offset={-70}
-              spy
               className="block cursor-pointer text-lg hover:text-blue-400"
               onClick={() => setOpen(false)}
             >
