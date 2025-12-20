@@ -141,6 +141,8 @@ import genAiPdf from "../assets/certificates/IntroToGenAi.pdf";
 
 import dataAnalyticsImage from "../assets/certificates/Data-Analytics.jpg";
 import dataAnalyticsPdf from "../assets/certificates/Data-Analytics.pdf";
+import nodeJSImage from "../assets/certificates/NodeJS.jpg";
+import nodeJSPdf from "../assets/certificates/NodeJS.pdf";
 
 const certificates = [
   {
@@ -151,6 +153,15 @@ const certificates = [
       "Completed a comprehensive React course covering components, hooks, state management, and hands-on project development.",
     image: reactUdemyImage,
     pdf: reactUdemyPdf,
+  },
+  {
+    title: "Node.js – All You Need to Know with Practical Project",
+    issuer: "Udemy",
+    date: "December 2025",
+    description:
+      "Completed an in-depth Node.js course covering core concepts, backend development, and building practical projects using Node.js.",
+    image: nodeJSImage,
+    pdf: nodeJSPdf,
   },
   {
     title: "Data Analytics Job Simulation",
