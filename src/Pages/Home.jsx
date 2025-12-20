@@ -55,7 +55,7 @@ const Home = () => {
             smooth
             duration={300}
             offset={-70}
-            className="flex items-center text-blue-500 font-medium hover:transform hover:translate-y-1 transition-transform"
+            className="flex items-center text-blue-500 font-medium hover:transform hover:translate-y-1 transition-transform cursor-pointer"
           >
             {/* <a
             className="flex items-center text-blue-500 font-medium hover:transform hover:translate-y-1 transition-transform"
