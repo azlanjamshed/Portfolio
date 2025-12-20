@@ -50,10 +50,17 @@ const Home = () => {
           </div>
         </div>
         <div className="hidden md:flex justify-center mt-12 mb-8">
-          <a
+          <Link
+            to="about"
+            smooth
+            duration={300}
+            offset={-70}
+            className="flex items-center text-blue-500 font-medium hover:transform hover:translate-y-1 transition-transform"
+          >
+            {/* <a
             className="flex items-center text-blue-500 font-medium hover:transform hover:translate-y-1 transition-transform"
             href="#about"
-          >
+          > */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -87,7 +94,8 @@ const Home = () => {
               <path d="M12 5v14"></path>
               <path d="m19 12-7 7-7-7"></path>
             </svg>
-          </a>
+          </Link>
+          {/* </a> */}
         </div>
       </div>
     </>
