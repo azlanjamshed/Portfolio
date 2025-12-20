@@ -31,7 +31,7 @@ const Home = () => {
               <h1 className="text-3xl md:text-5xl font-semibold text-white mb-2 ">
                 Hi, I'm Azlan
               </h1>
-              <h3 className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 font-medium mb-4">
+              <h3 className="text-xl md:text-2xl text-gray-400 font-medium mb-4">
                 Web Developer
               </h3>
             </div>

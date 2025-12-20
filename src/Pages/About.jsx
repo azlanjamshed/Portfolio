@@ -7,7 +7,7 @@ const About = () => {
           <h2 className="text-center text-4xl md:text-5xl font-semibold text-white mb-2">
             About Me
           </h2>
-          <span className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <span className="text-lg text-gray-400 max-w-2xl mx-auto">
             My Introduction
           </span>
         </div>
@@ -22,7 +22,7 @@ const About = () => {
             />
           </div>
           <div className="text-center lg:text-left">
-            <p className="text-gray-600 dark:text-gray-300 mb-8 leading-7 max-w-2xl mx-auto lg:mx-0">
+            <p className="text-gray-300 mb-8 leading-7 max-w-2xl mx-auto lg:mx-0">
               I am an Enthusiastic web developer with a strong passion for
               creating modern, responsive, and user-friendly websites. My
               expertise lies in front-end development, where I enjoy

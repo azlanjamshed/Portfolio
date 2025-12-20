@@ -13,10 +13,10 @@ const Skills = () => {
         className="py-12 bg-[#0e162a] flex flex-col items-center "
       >
         <div className="container mx-auto px-4 max-w-6xl text-center">
-          <h2 className=" text-4xl md:text-5xl font-bold text-gray-800 dark:text-white mb-4">
+          <h2 className=" text-4xl md:text-5xl font-bold text-white mb-4">
             Skills & Expertise
           </h2>
-          <span className=" text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <span className=" text-lg text-gray-400 max-w-2xl mx-auto">
             Technologies and tools I use to bring ideas to life
           </span>
         </div>

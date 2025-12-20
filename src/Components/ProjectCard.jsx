@@ -24,7 +24,7 @@ const ProjectCard = ({
     // add more as needed
   };
   return (
-    <div className="flex flex-col justify-center  items-center  lg:flex-row bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden transition-all duration-300 max-w-5xl mx-auto my-6 p-5">
+    <div className="flex flex-col justify-center  items-center  lg:flex-row bg-gray-900 rounded-lg shadow-md overflow-hidden transition-all duration-300 max-w-5xl mx-auto my-6 p-5">
       {/* Project Image */}
       <div className="lg:w-1/2 w-full p-5  ">
         <img
@@ -36,14 +36,10 @@ const ProjectCard = ({
 
       {/* Project Content */}
       <div className="lg:w-1/2 w-full p-6 flex flex-col justify-center">
-        <h2 className="text-2xl font-bold text-gray-800 dark:text-white ">
-          {title}
-        </h2>
+        <h2 className="text-2xl font-bold text-white ">{title}</h2>
         <p className="text-gray-600 mb-2">{type}</p>
 
-        <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base">
-          {description}
-        </p>
+        <p className="text-gray-300 mb-4 text-sm sm:text-base">{description}</p>
 
         {/* Tech Stack Tags */}
         <div className="flex flex-wrap gap-2 mb-4">
