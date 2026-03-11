@@ -1,75 +1,3 @@
-import CV from "../assets/Azlan_Jamshed.pdf";
-const About = () => {
-  return (
-    <>
-      <section id="about" className="py-12 bg-slate-800">
-        <div className="container mx-auto px-4 max-w-6xl text-center">
-          <h2 className="text-center text-4xl md:text-5xl font-semibold text-white mb-2">
-            About Me
-          </h2>
-          <span className="text-lg text-gray-400 max-w-2xl mx-auto">
-            My Introduction
-          </span>
-        </div>
-        <div className="flex flex-col md:flex-row gap-10 justify-center items-center p-10 md:gap-56 ">
-          <div>
-            <img
-              className=""
-              src="https://fernandocastrejon.com/_next/image?url=%2Fabout.png&w=750&q=75"
-              alt=""
-              width={350}
-              height={350}
-            />
-          </div>
-          <div className="text-center lg:text-left">
-            <p className="text-gray-300 mb-8 leading-7 max-w-2xl mx-auto lg:mx-0">
-              I am an Enthusiastic web developer with a strong passion for
-              creating modern, responsive, and user-friendly websites. My
-              expertise lies in front-end development, where I enjoy
-              transforming ideas into interactive digital experiences using
-              clean code and creative design. With a keen eye for detail and a
-              constant drive to learn new technologies, I focus on building
-              interfaces that not only look great but also deliver smooth
-              functionality and excellent user experience.
-            </p>
-            <div className="flex justify-center lg:justify-start">
-              <a
-                className="inline-flex items-center bg-blue-500 text-white px-8 py-3 rounded-lg font-medium transition-all hover:bg-blue-600 hover:scale-105"
-                href={CV}
-                download
-              >
-                Download CV
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="lucide lucide-download ml-2 w-5 h-5"
-                  aria-hidden="true"
-                >
-                  <path d="M12 15V3"></path>
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                  <path d="m7 10 5 5 5-5"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
-  );
-};
-
-export default About;
-
-// import React from "react";
-// import CV from "../assets/Azlan_Jamshed.pdf";
-
 // const About = () => {
 //   return (
 //     <section
@@ -190,3 +118,108 @@ export default About;
 // };
 
 // export default About;
+
+import CV from "../assets/Azlan_Jamshed.pdf";
+
+const About = () => {
+  return (
+    <section id="about" className="py-14 bg-slate-800">
+      {/* Section Header */}
+      <div className="container mx-auto px-4 max-w-6xl text-center mb-10">
+        <h2 className="text-4xl md:text-5xl font-semibold text-white mb-2">
+          About Me
+        </h2>
+        <span className="text-lg text-gray-400">My Introduction</span>
+      </div>
+
+      {/* Content */}
+
+      <div className="flex flex-col md:flex-row gap-10 justify-center items-center p-10 md:gap-56 ">
+        <div>
+          <img
+            className=""
+            src="https://fernandocastrejon.com/_next/image?url=%2Fabout.png&w=750&q=75"
+            alt=""
+            width={350}
+            height={350}
+          />
+        </div>
+
+        {/* Text Content */}
+        <div className="text-center md:text-left max-w-xl">
+          {/* Description */}
+          <p className="text-gray-300 leading-7 mb-6">
+            I’m a passionate web developer focused on building modern,
+            responsive, and user-friendly web applications. I specialize in the{" "}
+            <span className="text-blue-400 font-medium">MERN stack</span>{" "}
+            (MongoDB, Express, React, Node.js) and enjoy transforming ideas into
+            interactive digital products.
+          </p>
+
+          <p className="text-gray-300 leading-7 mb-8">
+            I enjoy solving real-world problems through code and continuously
+            improving my skills in frontend development, backend APIs, and
+            full-stack architecture. My goal is to create clean, scalable, and
+            high-performance applications that deliver great user experiences.
+          </p>
+
+          {/* Quick Stats */}
+          <div className="flex justify-center md:justify-start gap-10 mb-8 text-gray-300">
+            <div>
+              <p className="text-2xl font-semibold text-white">5+</p>
+              <p className="text-sm">Projects</p>
+            </div>
+
+            <div>
+              <p className="text-2xl font-semibold text-white">MERN</p>
+              <p className="text-sm">Stack</p>
+            </div>
+
+            <div>
+              <p className="text-2xl font-semibold text-blue-400 animate-pulse">
+                Open
+              </p>
+              <p className="text-sm">To Internships</p>
+            </div>
+          </div>
+
+          {/* Buttons */}
+          <div className="flex justify-center md:justify-start gap-4 flex-wrap">
+            {/* Download CV */}
+            <a
+              href={CV}
+              download
+              className="inline-flex items-center bg-blue-500 text-white px-7 py-3 rounded-lg font-medium hover:bg-blue-600 hover:scale-105 transition-all"
+            >
+              Download CV
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="ml-2 w-5 h-5"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path d="M12 15V3" />
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <path d="m7 10 5 5 5-5" />
+              </svg>
+            </a>
+
+            {/* GitHub */}
+            {/* <a
+              href="https://github.com/azlanjamshed"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center border border-blue-500 text-blue-400 px-7 py-3 rounded-lg font-medium hover:bg-blue-500 hover:text-white transition-all"
+            >
+              GitHub
+            </a> */}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
