@@ -103,3 +103,108 @@ const Home = () => {
 };
 
 export default Home;
+
+// import React from "react";
+// import { FaXTwitter } from "react-icons/fa6";
+// import { FaGithub } from "react-icons/fa";
+// import { IoMailOutline } from "react-icons/io5";
+// import { Link } from "react-scroll";
+// import photo from "../assets/photo.jpg";
+
+// const Home = () => {
+//   return (
+//     <section
+//       id="home"
+//       className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900/20 to-slate-900 pt-20 md:pt-52 px-6 lg:px-12"
+//     >
+//       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row-reverse lg:justify-between items-center gap-12 lg:gap-20">
+//         {/* Profile Image */}
+//         <div className="relative w-72 h-72 lg:w-96 lg:h-96 flex-shrink-0 mx-auto lg:mx-0">
+//           <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-3xl blur-xl -z-10 animate-pulse" />
+//           <img
+//             src={photo}
+//             alt="Azlan Jamshed"
+//             className="w-full h-full object-cover rounded-3xl shadow-2xl border-4 border-white/10 hover:border-white/20 transition-all duration-500 hover:scale-105 hover:rotate-1"
+//           />
+//         </div>
+
+//         {/* Content */}
+//         <div className="text-center lg:text-left lg:max-w-lg flex-1">
+//           {/* Social Links */}
+//           <div className="flex justify-center lg:justify-start gap-4 mb-12">
+//             {[
+//               {
+//                 icon: FaGithub,
+//                 href: "https://github.com/azlanjamshed",
+//                 label: "GitHub",
+//               },
+//               {
+//                 icon: FaXTwitter,
+//                 href: "https://x.com/Azlan_Jamshed",
+//                 label: "Twitter",
+//               },
+//             ].map(({ icon: Icon, href, label }) => (
+//               <a
+//                 key={label}
+//                 href={href}
+//                 target="_blank"
+//                 rel="noopener noreferrer"
+//                 className="group relative w-16 h-16 flex items-center justify-center bg-white/10 backdrop-blur-sm rounded-2xl border border-white/20 hover:bg-white/20 hover:border-white/40 transition-all duration-300 hover:scale-110 hover:-translate-y-2 shadow-xl hover:shadow-2xl"
+//                 aria-label={label}
+//               >
+//                 <Icon className="w-7 h-7 text-white group-hover:text-blue-400 transition-colors" />
+//                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity scale-0 group-hover:scale-100" />
+//               </a>
+//             ))}
+//           </div>
+
+//           {/* Greeting & Title */}
+//           <div className="space-y-6">
+//             <h1 className="bg-gradient-to-r from-white via-blue-100 to-blue-300 bg-clip-text text-transparent text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
+//               Hi, I'm{" "}
+//               <span className="text-transparent bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text">
+//                 Azlan
+//               </span>
+//             </h1>
+//             <h2 className="text-2xl md:text-3xl lg:text-4xl font-light text-gray-300 tracking-wide">
+//               Web Developer
+//             </h2>
+//           </div>
+
+//           {/* CTA Button */}
+//           <div className="mt-12 flex justify-center lg:justify-start">
+//             <Link
+//               to="contact"
+//               smooth={true}
+//               duration={500}
+//               spy={true}
+//               offset={-100}
+//               className="group relative inline-flex items-center px-10 py-5 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold text-lg rounded-2xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-500 hover:scale-105 hover:-translate-y-1 border-2 border-transparent hover:border-blue-400/50 backdrop-blur-sm"
+//             >
+//               <span className="relative z-10 flex items-center gap-3">
+//                 Let's Work Together
+//                 <IoMailOutline className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+//               </span>
+//               <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl blur opacity-0 group-hover:opacity-20 transition-opacity" />
+//             </Link>
+//           </div>
+//         </div>
+//       </div>
+
+//       {/* Scroll Indicator */}
+//       <div className="hidden lg:flex flex-col items-center mt-24 space-y-4 animate-bounce">
+//         <Link
+//           to="about"
+//           smooth
+//           duration={800}
+//           offset={-100}
+//           className="flex flex-col items-center text-blue-400 hover:text-white font-medium transition-all duration-300 group cursor-pointer"
+//         />
+//         <div className="w-3 h-20 bg-gradient-to-b from-blue-400 to-transparent rounded-full shadow-lg group-hover:shadow-blue-500/25" />
+//         <span className="text-sm mt-2 tracking-wide">Scroll to explore</span>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Home;

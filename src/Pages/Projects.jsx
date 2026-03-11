@@ -21,6 +21,7 @@ const Projects = () => {
             techStack={project.techStack}
             link={project.link}
             gitLink={project.gitLink}
+            status={project.status}
           />
         ))}
       </div>

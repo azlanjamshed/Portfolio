@@ -3,11 +3,13 @@ import weather from "../assets/weather.png"
 import password from "../assets/password.png"
 import gsla from "../assets/gsla.png"
 import mfc from "../assets/MFC.png"
+import maxpro from "../assets/Maxpro.png"
 const projects = [
     {
         image: gsla,
         title: "Global Service and Legal associates ",
         type: "Frontend",
+        status: "Done",
         description: "A complete frontend website for a legal and service consultancy firm, built with React and Tailwind CSS. Includes structured service pages, contact section, responsive layouts, and SEO-friendly design.",
         techStack: ["React", "Tailwind CSS"],
         link: "https://gslassociates.in",
@@ -32,14 +34,23 @@ const projects = [
     //     gitLink: "https://github.com/azlanjamshed/To-Do",
     // },
     {
-        image: weather,
-        title: "Weather App",
+        image: maxpro,
+        title: "SYDNEY MAXPRO SERVICES AUS PTY LTD",
         type: "Frontend",
-        description: "Mini blogging platform with CRUD, API, and form handling.",
-        techStack: ["HTML", "CSS", "JavaScript", "Weather API"],
-        link: "https://weatherapp-aj.netlify.app",
-        gitLink: "https://github.com/azlanjamshed/Weather-App",
+        description: "A responsive service website for a cleaning company that showcases residential and commercial cleaning services with an easy-to-use layout and contact options for booking services.",
+        techStack: ["React", "Tailwind CSS"],
+        link: "https://sydney-maxpro-services-aus.netlify.app",
+        gitLink: "https://github.com/azlanjamshed/Max-Pro-Service",
     },
+    // {
+    //     image: weather,
+    //     title: "Weather App",
+    //     type: "Frontend",
+    //     description: "Mini blogging platform with CRUD, API, and form handling.",
+    //     techStack: ["HTML", "CSS", "JavaScript", "Weather API"],
+    //     link: "https://weatherapp-aj.netlify.app",
+    //     gitLink: "https://github.com/azlanjamshed/Weather-App",
+    // },
     {
         image: password,
         title: "Password Generator ",
@@ -49,6 +60,17 @@ const projects = [
         link: "https://passowrd-generator-aj.netlify.app",
         gitLink: "https://github.com/azlanjamshed/Password-Generator",
     },
+    {
+        image: "",
+        title: "School Management System",
+        type: "Full Stack (MERN)",
+        status: "In Progress",
+        description:
+            "Currently building a MERN stack based School Management System with role-based dashboards for admin, teachers, and students.",
+        techStack: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
+        link: "#",
+        gitLink: "#",
+    }
 
 ];
 
