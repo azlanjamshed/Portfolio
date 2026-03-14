@@ -1,5 +1,4 @@
 
-import weather from "../assets/weather.png"
 import password from "../assets/password.png"
 import gsla from "../assets/gsla.png"
 import mfc from "../assets/MFC.png"
