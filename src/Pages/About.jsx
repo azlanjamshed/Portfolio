@@ -1,3 +1,5 @@
+// import CV from "../assets/Azlan_Jamshed.pdf";
+
 // const About = () => {
 //   return (
 //     <section
@@ -120,6 +122,7 @@
 // export default About;
 
 import CV from "../assets/Azlan_Jamshed.pdf";
+//import profile from "../assets/profile.png";
 
 const About = () => {
   return (
@@ -177,9 +180,9 @@ const About = () => {
 
             <div>
               <p className="text-2xl font-semibold text-blue-400 animate-pulse">
-                Open
+                Open to Work
               </p>
-              <p className="text-sm">To Internships</p>
+              {/* <p className="text-sm">To Internships</p> */}
             </div>
           </div>
 

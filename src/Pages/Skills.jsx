@@ -151,6 +151,7 @@
 
 // export default Skills;
 
+
 import React from "react";
 import { FaChevronDown } from "react-icons/fa";
 import { CgDatabase } from "react-icons/cg";
@@ -175,10 +176,12 @@ const Skills = () => {
 
       {/* Skills Grid */}
       <div className="w-full px-4 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-start bg-gray-900 text-white">
+
         {/* Frontend */}
         <div className="border border-gray-700 rounded-lg p-5 shadow-lg bg-slate-800 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
           <details className="group">
             <summary className="flex items-center justify-between cursor-pointer list-none text-lg font-semibold">
+              
               <div className="flex items-center gap-3">
                 <div className="bg-blue-900/20 p-3 rounded-xl">
                   <IoCode className="text-blue-400 w-7 h-7" />
@@ -190,16 +193,14 @@ const Skills = () => {
             </summary>
 
             <div className="mt-4 flex flex-wrap gap-3 text-sm text-gray-300">
-              {["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"].map(
-                (skill) => (
-                  <span
-                    key={skill}
-                    className="bg-[#1f2a4c] px-5 py-3 rounded-2xl border border-[#3b4a79] hover:text-blue-400 hover:border-blue-400 hover:scale-105 transition-all duration-300"
-                  >
-                    {skill}
-                  </span>
-                ),
-              )}
+              {["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"].map((skill) => (
+                <span
+                  key={skill}
+                  className="bg-[#1f2a4c] px-5 py-3 rounded-2xl border border-[#3b4a79] hover:text-blue-400 hover:border-blue-400 hover:scale-105 transition-all duration-300"
+                >
+                  {skill}
+                </span>
+              ))}
             </div>
           </details>
         </div>
@@ -208,6 +209,7 @@ const Skills = () => {
         <div className="border border-gray-700 rounded-lg p-5 shadow-lg bg-slate-800 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
           <details className="group">
             <summary className="flex items-center justify-between cursor-pointer list-none text-lg font-semibold">
+              
               <div className="flex items-center gap-3">
                 <div className="bg-blue-900/20 p-3 rounded-xl">
                   <CgDatabase className="text-blue-400 w-7 h-7" />
@@ -219,16 +221,14 @@ const Skills = () => {
             </summary>
 
             <div className="mt-4 flex flex-wrap gap-3 text-sm text-gray-300">
-              {["Node.js", "Express.js", "REST APIs", "JWT Authentication"].map(
-                (skill) => (
-                  <span
-                    key={skill}
-                    className="bg-[#1f2a4c] px-5 py-3 rounded-2xl border border-[#3b4a79] hover:text-blue-400 hover:border-blue-400 hover:scale-105 transition-all duration-300"
-                  >
-                    {skill}
-                  </span>
-                ),
-              )}
+              {["Node.js", "Express.js", "REST APIs", "JWT Authentication"].map((skill) => (
+                <span
+                  key={skill}
+                  className="bg-[#1f2a4c] px-5 py-3 rounded-2xl border border-[#3b4a79] hover:text-blue-400 hover:border-blue-400 hover:scale-105 transition-all duration-300"
+                >
+                  {skill}
+                </span>
+              ))}
             </div>
           </details>
         </div>
@@ -237,6 +237,7 @@ const Skills = () => {
         <div className="border border-gray-700 rounded-lg p-5 shadow-lg bg-slate-800 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
           <details className="group">
             <summary className="flex items-center justify-between cursor-pointer list-none text-lg font-semibold">
+              
               <div className="flex items-center gap-3">
                 <div className="bg-blue-900/20 p-3 rounded-xl">
                   <MdStorage className="text-blue-400 w-7 h-7" />
@@ -259,6 +260,7 @@ const Skills = () => {
         <div className="border border-gray-700 rounded-lg p-5 shadow-lg bg-slate-800 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
           <details className="group">
             <summary className="flex items-center justify-between cursor-pointer list-none text-lg font-semibold">
+              
               <div className="flex items-center gap-3">
                 <div className="bg-blue-900/20 p-3 rounded-xl">
                   <FaTools className="text-blue-400 w-7 h-7" />
@@ -281,6 +283,7 @@ const Skills = () => {
             </div>
           </details>
         </div>
+
       </div>
     </section>
   );
